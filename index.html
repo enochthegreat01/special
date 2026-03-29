@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You, My Love | Forever Yours</title>
+    <link rel="shortcut icon" href="./love.png" type="image/x-icon">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body class="heart-cursor">
+    <!-- Dark Mode Toggle Button -->
+    <div class="dark-mode-toggle" id="darkModeToggle">
+        <span class="toggle-icon">🌙</span>
+        <span class="toggle-text">Dark Mode</span>
+    </div>
+
+    <div class="container">
+        <!-- Hero Section -->
+        <div class="hero">
+            <h1>For You, My Love ✨</h1>
+            <p class="subtitle">Every moment with you is a beautiful memory</p>
+        </div>
+
+        <!-- Love Note -->
+        <div class="love-note">
+            <p>To the one who makes my world brighter,<br>
+                who turns ordinary days into beautiful stories,<br>
+                who holds my heart so gently...</p>
+            <div class="signature">— Yours, Always</div>
+        </div>
+
+        <!-- Love-Shaped Image Gallery -->
+        <h2 class="gallery-title">Our Beautiful Moments</h2>
+        <div class="image-grid" id="imageGrid">
+            <!-- Image 1 - Heart Shape Frame -->
+            <div class="love-frame">
+                <div class="heart-shape">
+                    <svg viewBox="0 0 100 90" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M50,85 L50,85 C30,70 5,55 5,30 C5,15 15,5 30,5 C40,5 45,12 50,20 C55,12 60,5 70,5 C85,5 95,15 95,30 C95,55 70,70 50,85Z"
+                            fill="var(--heart-fill)" stroke="var(--heart-stroke)" stroke-width="2" />
+                    </svg>
+                    <div class="heart-image" id="imageSlot1">
+                        <div class="placeholder">
+                            <span class="emoji">📸</span>
+                            <span>Your photo here</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-caption">First Date Memories</div>
+            </div>
+
+            <!-- Image 2 - Heart Outline Frame (Different Style) -->
+            <div class="love-frame">
+                <div class="heart-outline">
+                    <svg viewBox="0 0 100 90" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M50,85 L50,85 C30,70 5,55 5,30 C5,15 15,5 30,5 C40,5 45,12 50,20 C55,12 60,5 70,5 C85,5 95,15 95,30 C95,55 70,70 50,85Z"
+                            fill="none" stroke="var(--heart-stroke)" stroke-width="2.5" stroke-dasharray="5 3" />
+                    </svg>
+                    <div class="heart-image" id="imageSlot2">
+                        <div class="placeholder">
+                            <span class="emoji">💕</span>
+                            <span>Your photo here</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-caption">Adventures Together</div>
+            </div>
+
+            <!-- Image 3 - Heart Shape Frame with Gradient -->
+            <div class="love-frame">
+                <div class="heart-shape">
+                    <svg viewBox="0 0 100 90" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="heartGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                <stop offset="0%" stop-color="var(--accent-light)" stop-opacity="0.3" />
+                                <stop offset="100%" stop-color="var(--accent-color)" stop-opacity="0.2" />
+                            </linearGradient>
+                        </defs>
+                        <path
+                            d="M50,85 L50,85 C30,70 5,55 5,30 C5,15 15,5 30,5 C40,5 45,12 50,20 C55,12 60,5 70,5 C85,5 95,15 95,30 C95,55 70,70 50,85Z"
+                            fill="url(#heartGradient)" stroke="var(--heart-stroke)" stroke-width="2" />
+                    </svg>
+                    <div class="heart-image" id="imageSlot3">
+                        <div class="placeholder">
+                            <span class="emoji">🌸</span>
+                            <span>Your photo here</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-caption">Sweet Moments</div>
+            </div>
+
+            <!-- Image 4 - Additional Love Frame -->
+            <div class="love-frame">
+                <div class="heart-shape">
+                    <svg viewBox="0 0 100 90" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M50,85 L50,85 C30,70 5,55 5,30 C5,15 15,5 30,5 C40,5 45,12 50,20 C55,12 60,5 70,5 C85,5 95,15 95,30 C95,55 70,70 50,85Z"
+                            fill="var(--heart-fill)" stroke="var(--heart-stroke)" stroke-width="2" />
+                        <path
+                            d="M50,75 L50,75 C35,62 15,50 15,30 C15,20 22,12 32,12 C40,12 45,18 50,25 C55,18 60,12 68,12 C78,12 85,20 85,30 C85,50 65,62 50,75Z"
+                            fill="none" stroke="var(--accent-light)" stroke-width="1.5" />
+                    </svg>
+                    <div class="heart-image" id="imageSlot4">
+                        <div class="placeholder">
+                            <span class="emoji">💫</span>
+                            <span>Your photo here</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="image-caption">Forever Yours</div>
+            </div>
+        </div>
+
+        <!-- Reasons I Love You -->
+        <div class="reasons">
+            <h3>1000 Reasons, But Here Are a Few ❤️</h3>
+            <div class="reasons-list">
+                <div class="reason-item"><span class="reason-emoji">😊</span><span class="reason-text">Your smile lights
+                        up my world</span></div>
+                <div class="reason-item"><span class="reason-emoji">🎵</span><span class="reason-text">The way you laugh
+                        at my jokes</span></div>
+                <div class="reason-item"><span class="reason-emoji">💭</span><span class="reason-text">How you always
+                        know what I'm thinking</span></div>
+                <div class="reason-item"><span class="reason-emoji">🤗</span><span class="reason-text">Your words that
+                        make everything better</span></div>
+                <div class="reason-item"><span class="reason-emoji">✨</span><span class="reason-text">The way you see
+                        beauty in everything</span></div>
+                <div class="reason-item"><span class="reason-emoji">💪</span><span class="reason-text">Your strength
+                        when I need it most</span></div>
+            </div>
+        </div>
+
+        <!-- Love Letter -->
+        <div class="love-letter">
+            <p>My Dearest Love,</p>
+            <p>Every day with you feels like a beautiful dream I never want to wake from. You've shown me what love
+                truly means—patient, kind, and endlessly giving. In your eyes, I found my home. In your heart, I found
+                my peace.</p>
+            <p>Thank you for being you. Thank you for choosing me. Thank you for every little moment that makes life
+                extraordinary.</p>
+            <p>I love you more than words can ever express.</p>
+            <p>Forever and always,<br>Your Love</p>
+        </div>
+
+        <!-- Countdown to Special Day -->
+        <div class="countdown">
+            <h4>COUNTING HOURS UNTIL OUR NEXT ADVENTURE</h4>
+            <div class="timer">
+                <div class="timer-block"><span class="timer-number" id="hours">00</span>
+                    <div class="timer-label">Hours</div>
+                </div>
+                <div class="timer-block"><span class="timer-number" id="minutes">00</span>
+                    <div class="timer-label">Minutes</div>
+                </div>
+                <div class="timer-block"><span class="timer-number" id="seconds">00</span>
+                    <div class="timer-label">Seconds</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Made with ❤️ for the love of my life | Every day with you is a gift</p>
+        </div>
+    </div>
+
+    <script>
+        // ============================================
+        // DARK MODE TOGGLE
+        // ============================================
+
+        const darkModeToggle = document.getElementById('darkModeToggle');
+        const toggleIcon = darkModeToggle.querySelector('.toggle-icon');
+        const toggleText = darkModeToggle.querySelector('.toggle-text');
+
+        // Check for saved dark mode preference
+        const savedMode = localStorage.getItem('darkMode');
+        if (savedMode === 'enabled') {
+            document.body.classList.add('dark');
+            toggleIcon.textContent = '☀️';
+            toggleText.textContent = 'Light Mode';
+        }
+
+        darkModeToggle.addEventListener('click', () => {
+            document.body.classList.toggle('dark');
+
+            if (document.body.classList.contains('dark')) {
+                localStorage.setItem('darkMode', 'enabled');
+                toggleIcon.textContent = '☀️';
+                toggleText.textContent = 'Light Mode';
+            } else {
+                localStorage.setItem('darkMode', 'disabled');
+                toggleIcon.textContent = '🌙';
+                toggleText.textContent = 'Dark Mode';
+            }
+        });
+
+        // ============================================
+        // IMAGE UPLOAD / REPLACEMENT SYSTEM
+        // ============================================
+
+        // Interactive Photo Upload - Click any heart frame to add a photo
+        const imageSlots = [
+            document.getElementById('imageSlot1'),
+            document.getElementById('imageSlot2'),
+            document.getElementById('imageSlot3'),
+            document.getElementById('imageSlot4')
+        ];
+
+        // Create file input for each slot
+        imageSlots.forEach((slot, index) => {
+            if (slot) {
+                slot.style.cursor = 'pointer';
+                slot.addEventListener('click', () => {
+                    const fileInput = document.createElement('input');
+                    fileInput.type = 'file';
+                    fileInput.accept = 'image/*';
+                    fileInput.onchange = (e) => {
+                        const file = e.target.files[0];
+                        if (file) {
+                            const reader = new FileReader();
+                            reader.onload = (event) => {
+                                const img = document.createElement('img');
+                                img.src = event.target.result;
+                                img.style.width = '100%';
+                                img.style.height = '100%';
+                                img.style.objectFit = 'cover';
+                                slot.innerHTML = '';
+                                slot.appendChild(img);
+
+                                // Save to localStorage
+                                localStorage.setItem(`heartImage_${index}`, event.target.result);
+                            };
+                            reader.readAsDataURL(file);
+                        }
+                    };
+                    fileInput.click();
+                });
+            }
+        });
+
+        // Load saved images from localStorage
+        for (let i = 0; i < imageSlots.length; i++) {
+            const savedImage = localStorage.getItem(`heartImage_${i}`);
+            if (savedImage && imageSlots[i]) {
+                const img = document.createElement('img');
+                img.src = savedImage;
+                img.style.width = '100%';
+                img.style.height = '100%';
+                img.style.objectFit = 'cover';
+                imageSlots[i].innerHTML = '';
+                imageSlots[i].appendChild(img);
+            }
+        }
+
+        // ============================================
+        // FLOATING HEARTS ANIMATION
+        // ============================================
+
+        function createFloatingHeart() {
+            const heart = document.createElement('div');
+            heart.className = 'floating-heart';
+            const hearts = ['❤️', '💖', '💕', '💗', '💓', '🌸', '🌹', '✨', '⭐'];
+            heart.innerHTML = hearts[Math.floor(Math.random() * hearts.length)];
+            heart.style.left = Math.random() * window.innerWidth + 'px';
+            heart.style.bottom = '-20px';
+            heart.style.fontSize = (Math.random() * 20 + 15) + 'px';
+            heart.style.opacity = Math.random() * 0.5 + 0.3;
+            document.body.appendChild(heart);
+
+            setTimeout(() => {
+                heart.remove();
+            }, 4000);
+        }
+
+        // Create floating hearts every 2 seconds
+        let heartInterval = setInterval(createFloatingHeart, 2000);
+
+        // ============================================
+        // COUNTDOWN TIMER
+        // ============================================
+
+        // Set your special date here (Year, Month (0-11), Day)
+        // Example: April 30, 2026
+        const specialDate = new Date(2026, 3, 30); // April 30, 2026 (month is 0-indexed)
+
+        function updateCountdown() {
+            const now = new Date();
+            const diff = specialDate - now;
+
+            if (diff <= 0) {
+                document.getElementById('days').textContent = '00';
+                document.getElementById('hours').textContent = '00';
+                document.getElementById('minutes').textContent = '00';
+                document.getElementById('seconds').textContent = '00';
+                return;
+            }
+
+            const hours = Math.floor((diff % (1000 * 60 * 60 * 14)) / (1000 * 60 * 60));
+            const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+            document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+            document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+            document.getElementById('seconds').textContent = seconds.toString().padStart(2, '0');
+        }
+
+        updateCountdown();
+        setInterval(updateCountdown, 1000);
+
+        // ============================================
+        // MANUAL IMAGE REPLACEMENT GUIDE
+        // ============================================
+
+        console.log('❤️ HOW TO ADD YOUR PHOTOS: ❤️');
+        console.log('1. Click on any heart-shaped frame');
+        console.log('2. Select a photo from your device');
+        console.log('3. The image will appear inside the heart!');
+        console.log('4. Photos are saved automatically');
+        console.log('');
+        console.log('🌙 Dark Mode Toggle is in the top-right corner');
+        console.log('   Click to switch between light and dark mode');
+    </script>
+</body>
+
+</html>
